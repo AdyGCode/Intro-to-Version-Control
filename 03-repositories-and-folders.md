@@ -12,7 +12,7 @@ Open Terminal and then click the `v` next to the `+` on the tab bar.
 
 Select the *Command Prompt* option
 
-![[pasted-image-20240216105215.png)
+![](pasted-image-20240216105215.png)
 
 When the terminal opens use the following commands to change into your "user home" and make the `Source\Repos` folder.
 
