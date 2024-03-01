@@ -25,3 +25,14 @@ This ReadMe does not need a Table of contents, instead we provide links to each 
 - [12 Remotely useful](12-remotely-useful.md)
 - ...
 - [99 References and Resources](99-references-and-resources.md)
+
+## Cloning this Repository
+
+Use the command:
+
+```shell
+git clone https://github.com/AdyGCode/Intro-to-Version-Control.git
+```
+## Contributing to this Project
+
+ToDo: Add details on how to contribute
