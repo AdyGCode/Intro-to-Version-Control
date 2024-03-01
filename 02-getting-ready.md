@@ -43,11 +43,11 @@ There are many of them including:
 
 ## Parts of the Prompt
 
-| Image | Description |
-| ---- | ---- |
-| ![[Pasted image 20240216111739.png]] | This is the user account, followed by the computer name and separated by an `@`<br><br>Literally: *User **at** Computer*<br>  |
-| ![[Pasted image 20240216111840.png]] | Tells us that we are running in MinGW 64 bit<br>  |
-| ![[Pasted image 20240216111909.png]] | Shows we are in the `~/Source/Repos` folder, where `~` is the user's (your) home folder.<br><br>In Windows terms, this is the same as:<br><br>  `C:\Users\UserName\Source\Repos`<br>  |
+| Image                                              | Description |
+|----------------------------------------------------| ---- |
+| ![](./assets/pasted-image-20240216111739.png]]     | This is the user account, followed by the computer name and separated by an `@`<br><br>Literally: *User **at** Computer*<br>  |
+| ![](./assets/pasted-image-20240216111840.png]]     | Tells us that we are running in MinGW 64 bit<br>  |
+| ![](./assets/pasted-image-20240216111909.png]] | Shows we are in the `~/Source/Repos` folder, where `~` is the user's (your) home folder.<br><br>In Windows terms, this is the same as:<br><br>  `C:\Users\UserName\Source\Repos`<br>  |
 
 ## Setting up Microsoft Terminal to use Git Bash as a CLI
 
@@ -57,31 +57,31 @@ Click on the `v`  (or press `CTRL`+`,`) on the tab bar.
 
 Click *Settings*...
 
-![[Pasted image 20240216103325.png]]
+![](./assets/pasted-image-20240216103325.png]]
 
 Click on *Add a new profile*...
 
-![[Pasted image 20240216103615.png]]
+![](./assets/pasted-image-20240216103615.png]]
 
 Click *New Empty Profile*...
 
-![[Pasted image 20240216103644.png]]
+![](./assets/pasted-image-20240216103644.png]]
 
 Click on the `v` next to the "*Profile x*"...
 
-![[Pasted image 20240216103947.png]]
+![](./assets/pasted-image-20240216103947.png]]
 
 And give the profile a name...
 
-![[Pasted image 20240216103833.png]]
+![](./assets/pasted-image-20240216103833.png]]
 
 Next find the *Command Line* entry and click on the `v`
 
-![[Pasted image 20240216104034.png]]
+![](./assets/pasted-image-20240216104034.png]]
 
 Then click the *Browse* button...
 
-![[Pasted image 20240216104105.png]]
+![](./assets/pasted-image-20240216104105.png]]
 
 At home, if you have installed using Git-SCM installer then the default location for Git is: `c:\program files\git`. If you have Laragon installed using the default installation location, then you should find Git in the `C:\Laragon\bin\git` folder.
 
@@ -89,20 +89,20 @@ At home, if you have installed using Git-SCM installer then the default location
 
 Use the browse to locate the folder and find either the `git.exe` or the `bash.exe` file in the `bin` folder.
 
-![[Pasted image 20240216105026.png]]
+![](./assets/pasted-image-20240216105026.png]]
 
 Click on the Starting Directory `v` and then untick the "*Use parent process directory*"...
 
-![[Pasted image 20240216105847.png]] 
+![](./assets/pasted-image-20240216105847.png]] 
 This should then show `%USERPROFILE%` in a text field and `Browse` button underneath... 
 
-![[Pasted image 20240216105903.png]]
+![](./assets/pasted-image-20240216105903.png]]
 
 No matter what is shown, clear the content and enter the following in its place...
 
 `%USERPROFILE%\Source\Repos`
 
-![[Pasted image 20240216110033.png]]
+![](./assets/pasted-image-20240216110033.png]]
 
 Click `SAVE` to save the changes
 
@@ -115,21 +115,21 @@ The steps below are optional, and you may vary to your own "taste".
 
 Click the *Appearance* item.
 
-![[Pasted image 20240216110837.png]]
+![](./assets/pasted-image-20240216110837.png]]
 
 You may change the base colour scheme, the font face and more.
 
 Here are the settings Adrian has for this terminal prompt:
 
-![[Pasted image 20240216110957.png]]
+![](./assets/pasted-image-20240216110957.png]]
 
 Click Save then you can click the `X` next to settings to close the dialog.
-![[Pasted image 20240216111033.png]]
+![](./assets/pasted-image-20240216111033.png]]
 
 Finally you are able to open the new terminal by clicking on the `v` and selecting your custom terminal or using the short-cut it shows on the right next to your custom terminal.
 
-![[Pasted image 20240216111111.png]]
+![](./assets/pasted-image-20240216111111.png]]
 
 You will now have your terminal open and ready:
 
-![[Pasted image 20240216111239.png]]
+![](./assets/pasted-image-20240216111239.png]]

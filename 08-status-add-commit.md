@@ -5,7 +5,7 @@ Checking the status of the repository is done using the `git status` command:
 ```shell
 git status
 ```
-![[Pasted image 20240216121457.png]]
+![[pasted-image-20240216121457.png]]
 
 In this example, we have two files that are not "tracked" by the repository.
 
@@ -18,19 +18,19 @@ To add a file to be tracked we use `git add FILENAME`. For example:
 ```shell
 git add ReadMe.md
 ```
-![[Pasted image 20240216121921.png]]
+![[pasted-image-20240216121921.png]]
 
 Checking the status after adding shows:
 
-![[Pasted image 20240216122006.png]]
+![[pasted-image-20240216122006.png]]
 
 Once a file is tracked, any time you make changes and are happy with them, you should perform a `git status` and then `git add` the changed file.
 
-![[Pasted image 20240216122531.png]]
+![[pasted-image-20240216122531.png]]
 
 Here you see the file has been modified.
 
-![[Pasted image 20240216122620.png]]
+![[pasted-image-20240216122620.png]]
 
 After adding the changes, we see it is back to  'new'.
 
@@ -46,11 +46,11 @@ git commit -m "Commit message"
 
 In the above line the `-m` indicates that we are including a message.
 
-![[Pasted image 20240216122842.png]]
+![[pasted-image-20240216122842.png]]
 
 Now our `git status` should show:
 
-![[Pasted image 20240216123105.png]]
+![[pasted-image-20240216123105.png]]
 
 The committed file is still tracked, but as no changes have been made it does not show. 
 
@@ -74,7 +74,7 @@ Save the changes, then check the status of the repository.
 
 It should show the `ReadMe.md` has changed:
 
-![[Pasted image 20240216123506.png]]
+![[pasted-image-20240216123506.png]]
 
 **Add** the changes to the repo and **commit** them using the message:
 
@@ -82,7 +82,7 @@ It should show the `ReadMe.md` has changed:
 feat(readme): Update ReadMe.md to include author and version
 ```
 
-![[Pasted image 20240216123759.png]]
+![[pasted-image-20240216123759.png]]
 
 
 
@@ -99,4 +99,4 @@ The easiest way out is to do the following:
   
 - **Option 2:** Press **`ESCAPE`**, then press and hold the **`SHIFT`** whilst typing **`Z`** twice - This is a save and quit
 
-![[Pasted image 20240216125345.png]]
+![[pasted-image-20240216125345.png]]
