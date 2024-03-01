@@ -4,7 +4,13 @@ We are now ready to get started, and create a repository and work with it.
 
 ## Initialising a Repository for a 'project'
 
-There are three main ways to start a project. Two of them presume you have no existing files to begin with, and the third when you have files in an existing folder.
+There are three main ways to start a project. 
+
+Two of them presume you have no existing files to begin with, and the third when you have files in an existing folder.
+
+- Create a folder (for the project) and initialise
+- Initialise with folder (project) name
+- Initialise with the existing folder and files
 
 ### Option 1: Create a folder then initialising
 
@@ -13,6 +19,7 @@ Use `mkdir` command to create the folder, change into the new folder, and then u
 Let's presume the new project will be in the `Duck-Rogers` folder.
 
 Use the `pwd` command to verify the folder:
+
 ![](pasted-image-20240216113101.png)
 
 You see that the Windows `\` have been reversed to `/` and the `:` removed.
@@ -31,7 +38,7 @@ The command prompt will now show either `(master)` or `(main)` - if it is `maste
 
 To create the `Duck-Rogers` folder and initialise in a single move, we do the following:
 
-```
+```shell
 git init Duck-Rogers
 cd Duck-Rogers
 ```

@@ -24,7 +24,9 @@ git config --list --global
 
 ![](pasted-image-20240216124543.png)
 
-### Per Project Configuration
+## Per Project Configuration
+
+If you wish to change settings for a particular project, you can do so by using "Per Project" or "Local" configuration.
 
 These need to be repeated for any project that is not going to be listed under your 'global' config.
 

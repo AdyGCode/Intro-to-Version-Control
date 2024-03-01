@@ -1,10 +1,24 @@
-# Before you start (Required Software)
+# Required Software
 
-You will need to ensure one of the following combinations is installed:
+Before you start using Git you will need some software to be installed.
+
+For Windows users the combination is one of:
 - Microsoft Terminal and Git-SCM, or
 - Microsoft Terminal and Laragon
 
-## Microsoft Terminal Installation
+For MacOS users then either:
+- iTerm2 & Git, or
+- Warp & Git
+
+Mac users are able to install Git via the Git-SCM installer or via homebrew.
+
+For Linux users:
+- Git
+Linux users should find git installed, if not use the package manager appropriate for your version of Linux.
+
+## Windows Installations
+
+### Microsoft Terminal Installation
 
 This is a great way to interact with the command line.
 
@@ -12,7 +26,7 @@ Open the Microsoft Store, and search for "Microsoft Terminal".
 
 Install the "Microsoft Terminal" version and not the preview.
 
-## Git Installation
+### Git Installation
 
 Easiest way is to download and use the Git SCM installer:
 
@@ -22,7 +36,7 @@ Use the 64 Bit version when possible.
 
 Run the installer and accept the defaults.
 
-## Laragon Installation
+### Laragon Installation
 
 Download the Full Installer from https://laragon.org/download/index.html.
 
@@ -133,3 +147,8 @@ Finally you are able to open the new terminal by clicking on the `v` and selecti
 You will now have your terminal open and ready:
 
 ![](./assets/pasted-image-20240216111239.png)
+
+
+# Advanced Users
+
+If you want to make your CLI look even cooler (more useful) then something like OhMyPosh (https://ohmyposh.dev/) may help.
