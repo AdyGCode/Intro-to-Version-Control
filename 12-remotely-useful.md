@@ -29,7 +29,7 @@ When doing this, there are a couple of items to note:
 - You may use a personal email address or your TAFE student email.
 - Do NOT make the username offensive, as many prospective employers will look at your accounts!
 
-![[pasted-image-20240301120950.png]]
+![](pasted-image-20240301120950.png)
 
 The next step requires you to verify that you are not a bot by solving a puzzle.
 
@@ -37,16 +37,11 @@ Once the puzzle is solved, you will then need to verify your email address.
 
 To do this GitHub will send you and email that contains a link. Opening this link will verify your email address.
 
-![[pasted-image-20240301121055.png]]
+![](pasted-image-20240301121055.png)
 
 Once you have verified your email address, you are all done and are now able to create your very first project on GitHub.
 
-![[pasted-image-20240301121111.png]]
+![](pasted-image-20240301121111.png)
 
 
 # Working With Remotes
-
-
-
-
-
