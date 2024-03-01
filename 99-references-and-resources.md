@@ -9,3 +9,5 @@ Some of these resources have inspired content, others are there as they are an a
 QuickRef.ME. (n.d.). _Git Command Cheat Sheet & Quick Reference_. [online] Available at: https://quickref.me/git [Accessed 1 Mar. 2024].
 
 Stepp, M., Miller, J., Anderson, R., Wortzman, B., Fung, Z. and Matuszek, D. (n.d.). _Version Control and Git_. [online] Available at: https://homepage.divms.uiowa.edu/~sgoddard/Courses/CS2820/Lectures/1-VersionControl-and-Git.pdf [Accessed 1 Mar. 2024].
+
+Traversy, B. (2017). _Git & GitHub Crash Course For Beginners_. [online] www.youtube.com. Available at: https://www.youtube.com/watch?v=SWYqp7iY_Tc.
