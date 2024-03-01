@@ -15,14 +15,14 @@ git config --global user.email "YOUR EMAIL ADDRESS"
 
 The `--global` indicates that the changes are stored for this and all future projects.
 
-![[pasted-image-20240216124422.png]]
+![[pasted-image-20240216124422.png)
 
 To see the global settings...
 ```shell
 git config --list --global
 ```
 
-![[pasted-image-20240216124543.png]]
+![[pasted-image-20240216124543.png)
 
 ### Per Project Configuration
 
@@ -47,7 +47,7 @@ git config user.email "00000000@tafe.wa.edu.au"
 
 The `--global` indicates that the changes are stored for this and all future projects.
 
-![[pasted-image-20240216124422.png]]
+![[pasted-image-20240216124422.png)
 
 
 ### Default "Branch" name to Main...
@@ -64,7 +64,7 @@ To change the current 'master branch' to be the 'main branch' we need to do the 
 git branch -m master main
 ```
 
-![[pasted-image-20240216125018.png]]
+![[pasted-image-20240216125018.png)
 
 
 
@@ -91,11 +91,11 @@ git config --global core.editor "notepad"
 
 Now when you enter `git commit` the Notepad editor will open. The command line will tell you it is waiting for the editor to close a file (`COMMIT_MESSAGE`).
 
-![[pasted-image-20240223102507.png]]
+![[pasted-image-20240223102507.png)
 
 When Notepad is opened, it will show a set of comments that tell you details about the added files as comments.
 
-![[pasted-image-20240223102034.png]]
+![[pasted-image-20240223102034.png)
 
 Now editing the commit message and adding the details that may be more than just a one liner is easy.
 

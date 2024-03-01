@@ -25,7 +25,7 @@ To resolve this we need to edit the file(s) with the errors and fix the changes 
 
 The image below shows the conflict being reported.
 
-![[pasted-image-20240223114440.png]]
+![[pasted-image-20240223114440.png)
 
 To resolve the conflicts you now edit the file (or files) with the conflicts.
 
@@ -59,8 +59,8 @@ git commit -m "MERGE SUMMARY MESSAGE"
 
 The image below shows a really bad commit message:
 
-![[pasted-image-20240223115404.png]]
+![[pasted-image-20240223115404.png)
 
 If we now log the commits we will see a diagram of the branches with the conflict shown in red:
 
-![[pasted-image-20240223115456.png]]
+![[pasted-image-20240223115456.png)
