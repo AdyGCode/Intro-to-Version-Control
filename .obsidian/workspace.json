@@ -198,6 +198,9 @@
   },
   "active": "d22cb632a0379261",
   "lastOpenFiles": [
+    "theme/style.css",
+    "theme",
+    "themes",
     "output",
     "docs/09-git-history.md",
     "docs/08-status-add-commit.md",
