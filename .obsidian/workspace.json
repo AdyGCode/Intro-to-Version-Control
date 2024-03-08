@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "92cf5d9292ce11e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/14-forking-over-code.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d2b98a7dff66d88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/09-git-history.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b3130995457e4754",
             "type": "leaf",
             "state": {
@@ -42,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9972d7f9a704c3e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CONTRIBUTE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dee52173b9e2b1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/12-remotely-useful.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,47 +147,51 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d22cb632a0379261",
+  "active": "b3130995457e4754",
   "lastOpenFiles": [
     "theme/style.css",
     "theme",
-    "themes",
     "output",
-    "docs/09-git-history.md",
-    "docs/08-status-add-commit.md",
+    "docs/14-forking-over-code.md",
+    "docs/15-workflows.md",
+    "docs/99-references-and-resources.md",
+    "docs/13-why-hello-dolly.md",
     "docs/12-remotely-useful.md",
     "docs/11-merging-and-conflicts.md",
     "docs/10-shaking-the-tree.md",
-    "docs/15-workflows.md",
-    "ReadMe.md",
-    "CONTRIBUTE.md",
-    "docs/14-forking-over-code.md",
-    "docs/00-Back.md.md",
+    "docs/09-git-history.md",
+    "docs/08-status-add-commit.md",
+    "docs/07-ignore-me.md",
+    "docs/06-read-me.md",
+    "docs/05-global-settings.md",
+    "docs/04-git-started.md",
+    "docs/02-getting-ready.md",
+    "docs/03-repositories-and-folders.md",
+    "docs/01-what-is-version-control.md",
     "docs/00-Front.md.md",
+    "docs/00-Back.md.md",
     "docs",
-    "docs/13-why-hello-dolly.md",
+    "assets/brave_dWSQwZYc3F.mp4",
+    "assets/2024-03-01_15_03_52-AdyGCode_git-remote-demo-ii-Brave.png",
     "assets/2024-03-01_14_57_49-New-repository-Brave.png",
     "assets/2024-03-01_14_57_43-New-repository-Brave.png",
-    "assets/2024-03-01_14_57_29-New-repository-Brave.png",
     "assets/2024-03-01_14_57_37-New-repository-Brave.png",
+    "assets/2024-03-01_14_57_29-New-repository-Brave.png",
     "assets/2024-03-01_14_57_21-New-repository-Brave.png",
     "assets/2024-03-01_14_57_15-New-repository-Brave.png",
     "assets/2024-03-01_14_57_02-New-repository-Brave.png",
-    "assets/pasted image 20240223114440.png",
-    "assets/brave_dWSQwZYc3F.mp4",
-    "assets/pasted image 20240216121921.png",
-    "assets/Pasted image 20240216123842.png",
-    "orphaned files output.md",
-    "docs/99-references-and-resources.md",
-    "docs/05-global-settings.md",
-    "docs/04-git-started.md",
-    "docs/03-repositories-and-folders.md",
-    "docs/02-getting-ready.md",
+    "assets/2024-03-01_14_56_32-AdyGCode_git-remote-demo-Brave.png",
+    "assets/2024-03-01_14_56_22-AdyGCode_git-remote-demo-Brave.png",
+    "CONTRIBUTE.md",
+    "ReadMe.md",
+    "99-references-and-resources.md",
+    "12-remotely-useful.md",
+    "11-merging-and-conflicts.md",
+    "10-shaking-the-tree.md",
+    "09-git-history.md",
+    "themes",
     "ReadMe.md~",
-    "docs/01-what-is-version-control.md",
     "02-getting-ready.md~",
-    "docs/06-read-me.md",
-    "assets",
-    "docs/07-ignore-me.md"
+    "assets"
   ]
 }
