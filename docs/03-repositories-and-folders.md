@@ -16,20 +16,25 @@ Select the *Command Prompt* option
 
 When the terminal opens use the following commands to change into your "user home" and make the `Source\Repos` folder.
 
-> **Important:** We tend to use the forward slash `/` in notes as they show up easily, plus most operating systems other than Windows use the `/` as the folder separator. 
-> 
+> **Important:** We tend to use the forward slash `/` in notes as they show up easily, plus most operating systems other
+> than Windows use the `/` as the folder separator.
+>
 > Later you will see this in action when using the Git command line.
 
 Here are the commands to use:
+
 ```shell
 cd %userprofile%
 mkdir Source 
 mkdir Source\Repos
 ```
+
 You should now have the folders created.
 
 Check this using:
+
 ```shell
 dir Source\Repos
 ```
+
 It should show a folder listing with no files.

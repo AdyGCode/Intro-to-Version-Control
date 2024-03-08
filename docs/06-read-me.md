@@ -1,6 +1,6 @@
 ## Creating a `ReadMe.md` for the project
 
-The Bash/git shell has the ability to create a empty file really easily. 
+The Bash/git shell has the ability to create a empty file really easily.
 
 For example an empty `ReadMe.md` file would be created using:
 

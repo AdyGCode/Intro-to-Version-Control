@@ -1,11 +1,11 @@
-
-
 ## History so Far...
 
 To see the history of the project so far we use...
+
 ```shell
 git log
 ```
+
 ![](pasted-image-20240216123842.png)
 
 > **Note:** The history is shown in reverse order... newest first.
@@ -19,13 +19,13 @@ git log --oneline
 Which produces a shorthand version of the log:
 ![](pasted-image-20240223100556.png)
 
-What is important is that the message shows in this log. It is a good idea *not* to have a very long first line to a commit message.
-
+What is important is that the message shows in this log. It is a good idea *not* to have a very long first line to a
+commit message.
 
 ## Decorated Logs
+
 A log with more detail can be produced using
 
 ```shell
 git log --all --decorate --graph --oneline
 ```
-

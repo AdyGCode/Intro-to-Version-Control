@@ -1,8 +1,10 @@
 ## Global configuration changes
 
-Git, like any software has many things that can be changed. These area stored in a global configuration file, in a project only configuration file.
+Git, like any software has many things that can be changed. These area stored in a global configuration file, in a
+project only configuration file.
 
-Most of the configuration options are able to be set for both, but we show the global (for you as the user) changes you may want to make.
+Most of the configuration options are able to be set for both, but we show the global (for you as the user) changes you
+may want to make.
 
 ### Git User Name and Email Address
 
@@ -18,6 +20,7 @@ The `--global` indicates that the changes are stored for this and all future pro
 ![](pasted-image-20240216124422.png)
 
 To see the global settings...
+
 ```shell
 git config --list --global
 ```
@@ -51,7 +54,6 @@ The `--global` indicates that the changes are stored for this and all future pro
 
 ![](pasted-image-20240216124422.png)
 
-
 ### Default "Branch" name to Main...
 
 To do this for ALL FUTURE projects we use:
@@ -59,19 +61,16 @@ To do this for ALL FUTURE projects we use:
 ```bash
 git config --global init.defaultBranch main
 ```
+
 ### Change Current Project's Branch Name
 
 To change the current 'master branch' to be the 'main branch' we need to do the following *AFTER* a commit is completed:
+
 ```bash
 git branch -m master main
 ```
 
 ![](pasted-image-20240216125018.png)
-
-
-
-
-
 
 ### Default Commit Message Editor
 
@@ -89,9 +88,11 @@ To change it to Notepad we would use:
 git config --global core.editor "notepad"
 ```
 
-> **Important:** when using a GUI editor such as Notepad, you **MUST** **SAVE** and **CLOSE** the message, then (usually optionally) **QUIT** the application for the message to be transferred to the git command.
+> **Important:** when using a GUI editor such as Notepad, you **MUST** **SAVE** and **CLOSE** the message, then (usually
+> optionally) **QUIT** the application for the message to be transferred to the git command.
 
-Now when you enter `git commit` the Notepad editor will open. The command line will tell you it is waiting for the editor to close a file (`COMMIT_MESSAGE`).
+Now when you enter `git commit` the Notepad editor will open. The command line will tell you it is waiting for the
+editor to close a file (`COMMIT_MESSAGE`).
 
 ![](pasted-image-20240223102507.png)
 
@@ -101,7 +102,8 @@ When Notepad is opened, it will show a set of comments that tell you details abo
 
 Now editing the commit message and adding the details that may be more than just a one liner is easy.
 
-You then enter the SHORT commit message and, as required, a blank line followed by more details about the changes that have been made to the project.
+You then enter the SHORT commit message and, as required, a blank line followed by more details about the changes that
+have been made to the project.
 
 For example:
 
@@ -117,8 +119,6 @@ feat(readme): Add demo commit demo of external editor
 - Optionally, quit the editor (`ALT`+`F4`)
 ```
 
-
-
-> **Warning:** Tests have indicated that you will not be able to use 'VSCode' as the editor for messages. 
-> 
+> **Warning:** Tests have indicated that you will not be able to use 'VSCode' as the editor for messages.
+>
 > On execution the editor does not negotiate correctly with the command line and git aborts the commit.

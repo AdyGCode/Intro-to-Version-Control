@@ -6,7 +6,8 @@ The main branch is sometimes called the 'trunk', and like any tree trunk, it has
 
 Unlike trees, branches in version control may merge back into the trunk.
 
-But this is not just for the trunk, a branch may have branches split off from it, and allow for testing on an idea before it is added back into the branch if the idea solves that particular problem.
+But this is not just for the trunk, a branch may have branches split off from it, and allow for testing on an idea
+before it is added back into the branch if the idea solves that particular problem.
 
 ## Creating a branch
 

@@ -13,13 +13,13 @@ jobs:
       - name: Build book
         run: |-
           npm install -g md-to-pdf
-          mkdir -p output
+          mkdir -p _output
           cd docs
           echo; echo "Input Folder Listing"
           ls
           echo; echo "Generating PDF"
-          for f in *.md; do cat $f; echo; done | md-to-pdf --stylesheet "../theme/style.css" > ../output/blue-paper.pdf
-          cd ../output
+          for f in *.md; do cat $f; echo; done | md-to-pdf --stylesheet "../theme/style.css" > ../_output/blue-paper.pdf
+          cd ../_output
           echo; echo "Output Folder Listing"
           ls
           cd ..
@@ -27,4 +27,4 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: output
-          path: output
+          path: _output
