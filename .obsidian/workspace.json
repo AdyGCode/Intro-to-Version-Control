@@ -8,18 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "53de5f36498d4d0d",
+            "id": "92cf5d9292ce11e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12-remotely-useful.md",
+                "file": "docs/14-forking-over-code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d2b98a7dff66d88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/09-git-history.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3130995457e4754",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReadMe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9972d7f9a704c3e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CONTRIBUTE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2dee52173b9e2b1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/12-remotely-useful.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 698.5
+    "width": 200
   },
   "right": {
     "id": "716f3d336a8d686f",
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12-remotely-useful.md",
+                "file": "ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12-remotely-useful.md",
+                "file": "ReadMe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12-remotely-useful.md"
+                "file": "ReadMe.md"
               }
             }
           }
@@ -147,8 +196,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "53de5f36498d4d0d",
+  "active": "d22cb632a0379261",
   "lastOpenFiles": [
+    "output",
+    "docs/09-git-history.md",
+    "docs/08-status-add-commit.md",
+    "docs/12-remotely-useful.md",
+    "docs/11-merging-and-conflicts.md",
+    "docs/10-shaking-the-tree.md",
+    "docs/15-workflows.md",
+    "ReadMe.md",
+    "CONTRIBUTE.md",
+    "docs/14-forking-over-code.md",
+    "docs/00-Back.md.md",
+    "docs/00-Front.md.md",
+    "docs",
+    "docs/13-why-hello-dolly.md",
     "assets/2024-03-01_14_57_49-New-repository-Brave.png",
     "assets/2024-03-01_14_57_43-New-repository-Brave.png",
     "assets/2024-03-01_14_57_29-New-repository-Brave.png",
@@ -159,26 +222,18 @@
     "assets/pasted image 20240223114440.png",
     "assets/brave_dWSQwZYc3F.mp4",
     "assets/pasted image 20240216121921.png",
-    "12-remotely-useful.md",
     "assets/Pasted image 20240216123842.png",
     "orphaned files output.md",
-    "99-references-and-resources.md",
-    "13-why-hello-dolly.md",
-    "ReadMe.md",
-    "assets/2024-03-01_14_56_22-AdyGCode_git-remote-demo-Brave.png",
-    "05-global-settings.md",
-    "04-git-started.md",
-    "03-repositories-and-folders.md",
-    "02-getting-ready.md",
+    "docs/99-references-and-resources.md",
+    "docs/05-global-settings.md",
+    "docs/04-git-started.md",
+    "docs/03-repositories-and-folders.md",
+    "docs/02-getting-ready.md",
     "ReadMe.md~",
-    "01-what-is-version-control.md",
-    "09-git-history.md",
+    "docs/01-what-is-version-control.md",
     "02-getting-ready.md~",
-    "06-read-me.md",
-    "08-status-add-commit.md",
-    "10-shaking-the-tree.md",
+    "docs/06-read-me.md",
     "assets",
-    "11-merging-and-conflicts.md",
-    "07-ignore-me.md"
+    "docs/07-ignore-me.md"
   ]
 }

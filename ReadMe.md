@@ -6,25 +6,36 @@ The project is split into multiple Markdown files that cover sections of using a
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/AdyGCode/Intro-to-Version-Control/total)  ![GitHub commits since latest release](https://img.shields.io/github/commits-since/AdyGCode/Intro-to-Version-Control/latest)
 
+## Resources of Information
+
+Adrian Gould's Diigo Links:
+- [https://diiigo.com/profile/Ady_Gould](https://diiigo.com/profile/Ady_Gould)
+- [https://www.diigo.com/user/ady_gould?query=git](https://www.diigo.com/user/ady_gould?query=git)
+- [https://www.diigo.com/user/ady_gould?query=github+pull+request](https://www.diigo.com/user/ady_gould?query=github+pull+request)
+
 
 ### Contents
 
 This ReadMe does not need a Table of contents, instead we provide links to each of the Markdown files that make up this tutorial and exercises.
 
-- [01 What is Version Control](01-what-is-version-control.md)
-- [02 Getting Ready](02-getting-ready.md)
-- [03 Repositories and Folders](03-repositories-and-folders.md)
-- [04 Git Started](04-git-started.md)
-- [05 Global Settings](05-global-settings.md)
-- [06 ReadMe!](06-read-me.md)
-- [07 Ignore Me](07-ignore-me.md)
-- [08 Status Add Commit](08-status-add-commit.md)
-- [09 Git History](09-git-history.md)
-- [10 Shaking the Tree](10-shaking-the-tree.md)
-- [11 Merging and Conflicts](11-merging-and-conflicts.md)
-- [12 Remotely useful](12-remotely-useful.md)
+- [01 What is Version Control](docs/01-what-is-version-control.md)
+- [02 Getting Ready](docs/02-getting-ready.md)
+- [03 Repositories and Folders](docs/03-repositories-and-folders.md)
+- [04 Git Started](docs/04-git-started.md)
+- [05 Global Settings](docs/05-global-settings.md)
+- [06 ReadMe!](docs/06-read-me.md)
+- [07 Ignore Me](docs/07-ignore-me.md)
+- [08 Status Add Commit](docs/08-status-add-commit.md)
+- [09 Git History](docs/09-git-history.md)
+- [10 Shaking the Tree](docs/10-shaking-the-tree.md)
+- [11 Merging and Conflicts](docs/11-merging-and-conflicts.md)
+- [12 Remotely useful](docs/12-remotely-useful.md)
+- [13 Why, Hello Dolly](13-why-hello-dolly.md)
+- [14 Forking over code](docs/14-forking-over-code.md)
+- [15 Workflows](docs/15-workflows.md)
+- 
 - ...
-- [99 References and Resources](99-references-and-resources.md)
+- [99 References and Resources](docs/99-references-and-resources.md)
 
 ## Cloning this Repository
 
@@ -33,6 +44,9 @@ Use the command:
 ```shell
 git clone https://github.com/AdyGCode/Intro-to-Version-Control.git
 ```
+
+
 ## Contributing to this Project
 
-ToDo: Add details on how to contribute
+[For details on how to contribute see the CONTIBUTE document](CONTRIBUTE.md)
+

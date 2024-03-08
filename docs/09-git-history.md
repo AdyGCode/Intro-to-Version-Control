@@ -20,3 +20,12 @@ Which produces a shorthand version of the log:
 ![](pasted-image-20240223100556.png)
 
 What is important is that the message shows in this log. It is a good idea *not* to have a very long first line to a commit message.
+
+
+## Decorated Logs
+A log with more detail can be produced using
+
+```shell
+git log --all --decorate --graph --oneline
+```
+
