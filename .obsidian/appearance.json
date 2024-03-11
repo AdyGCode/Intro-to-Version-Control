@@ -1,5 +1,6 @@
 {
   "accentColor": "",
   "baseFontSize": 23,
-  "cssTheme": "Shimmering Focus"
+  "cssTheme": "Dracula for Obsidian",
+  "baseFontSizeAction": true
 }

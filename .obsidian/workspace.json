@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ReadMe.md",
+                "file": "docs/02-getting-ready.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReadMe.md",
+                "file": "docs/02-getting-ready.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ReadMe.md",
+                "file": "docs/02-getting-ready.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ReadMe.md"
+                "file": "docs/02-getting-ready.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "b3130995457e4754",
   "lastOpenFiles": [
+    "ReadMe.md",
     "theme/style.css",
     "theme",
     "output",
@@ -183,7 +184,6 @@
     "assets/2024-03-01_14_56_32-AdyGCode_git-remote-demo-Brave.png",
     "assets/2024-03-01_14_56_22-AdyGCode_git-remote-demo-Brave.png",
     "CONTRIBUTE.md",
-    "ReadMe.md",
     "99-references-and-resources.md",
     "12-remotely-useful.md",
     "11-merging-and-conflicts.md",

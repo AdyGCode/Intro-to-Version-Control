@@ -28,31 +28,11 @@ __export(main_exports, {
 });
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
-var DEFAULT_SETTINGS = {
-  imageFolderPath: "zAttachments"
-  // Default folder
-};
-var ImageCollectorSettingTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
-    this.plugin = plugin;
-  }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    containerEl.createEl("h2", { text: "Image Collector Settings" });
-    new import_obsidian.Setting(containerEl).setName("Image Folder Path").setDesc("The folder where images are stored").addText((text) => text.setPlaceholder("Enter your image folder path").setValue(this.plugin.settings.imageFolderPath).onChange(async (value) => {
-      this.plugin.settings.imageFolderPath = value;
-      await this.plugin.saveSettings();
-    }));
-  }
-};
 var ImageCollectorPlugin = class extends import_obsidian.Plugin {
   async onload() {
-    await this.loadSettings();
     this.addCommand({
-      id: "export-markdown-images-command",
-      name: "Export Markdown Images",
+      id: "export-markdown-images",
+      name: "Export markdown images",
       callback: () => {
         const activeFile = this.app.workspace.getActiveFile();
         if (activeFile && activeFile instanceof import_obsidian.TFile && activeFile.extension === "md") {
@@ -62,47 +42,37 @@ var ImageCollectorPlugin = class extends import_obsidian.Plugin {
         }
       }
     });
-    this.addSettingTab(new ImageCollectorSettingTab(this.app, this));
     this.registerEvent(this.app.workspace.on("file-menu", (menu, file) => {
       if (file instanceof import_obsidian.TFile && file.extension === "md") {
         menu.addItem((item) => {
-          item.setTitle("Export Images with My Plugin").setIcon("document-export").onClick(() => {
+          item.setTitle("Export images").setIcon("document-export").onClick(() => {
             this.exportMarkdownImages(file);
           });
         });
       }
     }));
   }
-  async loadSettings() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
-  }
-  async saveSettings() {
-    await this.saveData(this.settings);
-  }
   async exportMarkdownImages(file) {
-    const activeFile = this.app.workspace.getActiveFile();
-    if (!activeFile || activeFile.extension !== "md") {
-      new import_obsidian.Notice("No active markdown file.");
-      return;
-    }
-    const fileContent = await this.app.vault.read(activeFile);
-    const imageRegex = /!\[\[?(.*?)\]?\]/g;
+    const fileContent = await this.app.vault.read(file);
+    const imageRegex = /!\[\[(.*?)\]\]|!\[(?:.*?)\]\((.*?)\s*(".*?")?\)/g;
     let match;
     const images = [];
     while ((match = imageRegex.exec(fileContent)) !== null) {
-      const imagePath = match[1].includes("|") ? match[1].split("|")[0] : match[1];
-      images.push(imagePath);
+      let imagePath = match[1] || match[2];
+      if (imagePath) {
+        imagePath = decodeURIComponent(imagePath.trim());
+        images.push(imagePath);
+      }
     }
     if (images.length === 0) {
       new import_obsidian.Notice("No images found in the markdown file.");
       return;
     }
-    const targetFolderName = `${activeFile.basename} images`;
+    const targetFolderName = `${file.basename} images`;
     await this.app.vault.createFolder(targetFolderName).catch(() => {
     });
     for (const imagePath of images) {
-      const resolvedImagePath = this.resolveImagePath(activeFile, imagePath);
-      const imageFile = this.app.vault.getAbstractFileByPath(resolvedImagePath);
+      const imageFile = this.app.metadataCache.getFirstLinkpathDest(imagePath, file.path);
       if (imageFile instanceof import_obsidian.TFile) {
         try {
           const imageContent = await this.app.vault.readBinary(imageFile);
@@ -114,25 +84,9 @@ var ImageCollectorPlugin = class extends import_obsidian.Plugin {
           console.error(`Failed to export image ${imageFile.name}:`, error);
         }
       } else {
-        new import_obsidian.Notice(`Image not found: ${resolvedImagePath}`);
-        console.error(`Image not found: ${resolvedImagePath}`);
+        new import_obsidian.Notice(`Image not found: ${imagePath}`);
+        console.error(`Image not found: ${imagePath}`);
       }
     }
-  }
-  resolveImagePath(activeFile, imagePath) {
-    let normalizedPath = imagePath.replace(/\[\[|\]\]/g, "");
-    let basePath = this.settings.imageFolderPath;
-    if (normalizedPath.startsWith("/") || normalizedPath.startsWith(`${basePath}/`)) {
-      return normalizedPath;
-    }
-    if (activeFile.parent) {
-      const folderPath = activeFile.parent.path;
-      const fullPath = `${folderPath}/${normalizedPath}`;
-      const fileExists = this.app.vault.getAbstractFileByPath(fullPath);
-      if (fileExists) {
-        return fullPath;
-      }
-    }
-    return `${basePath}/${normalizedPath}`;
   }
 };
