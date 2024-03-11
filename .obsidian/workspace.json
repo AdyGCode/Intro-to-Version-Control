@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/02-getting-ready.md",
+                "file": "ReadMe.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/02-getting-ready.md",
+                "file": "ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/02-getting-ready.md",
+                "file": "ReadMe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/02-getting-ready.md"
+                "file": "ReadMe.md"
               }
             }
           }
@@ -149,7 +149,14 @@
   },
   "active": "b3130995457e4754",
   "lastOpenFiles": [
+    "CONTRIBUTE.md",
+    "CHANGELOG.md",
+    "LICENSE.md",
+    "docs/06-read-me.md",
+    "LICENSE.txt",
+    "assets/BLANK_README.md",
     "ReadMe.md",
+    "docs/02-getting-ready.md",
     "theme/style.css",
     "theme",
     "output",
@@ -163,10 +170,8 @@
     "docs/09-git-history.md",
     "docs/08-status-add-commit.md",
     "docs/07-ignore-me.md",
-    "docs/06-read-me.md",
     "docs/05-global-settings.md",
     "docs/04-git-started.md",
-    "docs/02-getting-ready.md",
     "docs/03-repositories-and-folders.md",
     "docs/01-what-is-version-control.md",
     "docs/00-Front.md.md",
@@ -183,12 +188,9 @@
     "assets/2024-03-01_14_57_02-New-repository-Brave.png",
     "assets/2024-03-01_14_56_32-AdyGCode_git-remote-demo-Brave.png",
     "assets/2024-03-01_14_56_22-AdyGCode_git-remote-demo-Brave.png",
-    "CONTRIBUTE.md",
     "99-references-and-resources.md",
     "12-remotely-useful.md",
     "11-merging-and-conflicts.md",
-    "10-shaking-the-tree.md",
-    "09-git-history.md",
     "themes",
     "ReadMe.md~",
     "02-getting-ready.md~",
