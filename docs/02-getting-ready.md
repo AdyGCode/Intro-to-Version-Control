@@ -2,10 +2,14 @@
 
 Before you start using Git you will need some software to be installed.
 
+## Windows Users
+
 For Windows users the combination is one of:
 
 - Microsoft Terminal and Git-SCM, or
 - Microsoft Terminal and Laragon
+
+## MacOS Users
 
 For MacOS users then either:
 
@@ -14,12 +18,20 @@ For MacOS users then either:
 
 Mac users are able to install Git via the Git-SCM installer or via homebrew.
 
+## Linux Users
+
 For Linux users:
 
 - Git
   Linux users should find git installed, if not use the package manager appropriate for your version of Linux.
 
 ## Windows Installations
+
+On your personal Windows systems, our recommendation is to install the following:
+- Windows Terminal
+- Laragon
+
+To update the version of Git to the latest, we have notes in an FAQ on the SQuASH Helpdesk.
 
 ### Microsoft Terminal Installation
 
@@ -29,15 +41,6 @@ Open the Microsoft Store, and search for "Microsoft Terminal".
 
 Install the "Microsoft Terminal" version and not the preview.
 
-### Git Installation
-
-Easiest way is to download and use the Git SCM installer:
-
-https://git-scm.com/download/win
-
-Use the 64 Bit version when possible.
-
-Run the installer and accept the defaults.
 
 ### Laragon Installation
 
@@ -46,6 +49,25 @@ Download the Full Installer from https://laragon.org/download/index.html.
 Run the installer and accept the defaults.
 
 This places Laragon in the folder `c:\Laragon`.
+
+### Git Installation
+
+If you have Laragon installed, you do not need to install using the Git-SCM method as it already is part of the Laragon install. You will find it in `C:\Laragon\bin\git` on your machine. At TAFE it may be in the `c:\ProgramData\Laragon\bin\git` folder.
+
+If you wish to install Git anyway, you may find the easiest way is to download and use the Git SCM installer:
+
+https://git-scm.com/download/win
+
+Use the 64 Bit version when possible.
+
+Run the installer and accept the defaults.
+
+
+## Updating Git
+
+For details on updating git, please check the SQuASH helpdesk FAQs.
+
+---
 
 # The CLI
 
@@ -126,6 +148,7 @@ No matter what is shown, clear the content and enter the following in its place.
 
 Click `SAVE` to save the changes
 
+
 ### Visual flair (optional)
 
 You may optionally customise the appearance of the terminal.
@@ -156,7 +179,9 @@ You will now have your terminal open and ready:
 
 ![](../assets/pasted-image-20240216111239.png)
 
+
+---
+
 # Advanced Users
 
-If you want to make your CLI look even cooler (more useful) then something like OhMyPosh (https://ohmyposh.dev/) may
-help.
+If you want to make your CLI look even cooler (more useful) then something like OhMyPosh (https://ohmyposh.dev/) may help.
