@@ -6,11 +6,11 @@ We split them into three parts. Windows, Linux and MacOS.
 
 Many hints and tips for MacOS and Linux will be the same.
 
-## Windows Command Hints and Tips
+## Windows Command 
 
 - TODO: Add Command Hints for Windows Command 
 
-## Windows Git Bash Hints and Tips
+## Windows Git Bash 
 
 The best hint or tip we can give is the following...
 
@@ -64,10 +64,14 @@ If you make these changes and wish to activate them without closing and reopenin
 ```bash
 source ~/.bashrc
 ```
-## MacOS Hints and Tips
+
+
+## MacOS Zshell
 
 - TODO: Add Command Hints for MacOS zshell
-## Linux Hints and Tips
+
+
+## Linux Bash
 
 For the main part, you may use the Windows Git Bash aliases for Linux without any issues.
 
