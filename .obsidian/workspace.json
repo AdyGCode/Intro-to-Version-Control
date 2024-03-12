@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a0705548dc759df5",
+        "id": "9f3a472b7ee694af",
         "type": "tabs",
         "children": [
           {
-            "id": "b3130995457e4754",
+            "id": "219213feb0a815f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ReadMe.md",
+                "file": "docs/98-command-line-extras.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReadMe.md",
+                "file": "docs/98-command-line-extras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ReadMe.md",
+                "file": "docs/98-command-line-extras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ReadMe.md"
+                "file": "docs/98-command-line-extras.md"
               }
             }
           }
@@ -147,31 +147,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b3130995457e4754",
+  "active": "d22cb632a0379261",
   "lastOpenFiles": [
+    "docs/99-references-and-resources.md",
+    "docs/98-command-line-extras.md",
+    "docs/08-status-add-commit.md",
     "docs/06-read-me.md",
     "ReadMe.md",
     "assets/BLANK_README.md",
-    "CONTRIBUTE.md",
-    "CHANGELOG.md",
     "LICENSE.md",
-    "LICENSE.txt",
-    "docs/02-getting-ready.md",
+    "CHANGELOG.md",
     "theme/style.css",
     "theme",
     "output",
     "docs/14-forking-over-code.md",
     "docs/15-workflows.md",
-    "docs/99-references-and-resources.md",
     "docs/13-why-hello-dolly.md",
     "docs/12-remotely-useful.md",
     "docs/11-merging-and-conflicts.md",
     "docs/10-shaking-the-tree.md",
     "docs/09-git-history.md",
-    "docs/08-status-add-commit.md",
     "docs/07-ignore-me.md",
     "docs/05-global-settings.md",
     "docs/04-git-started.md",
+    "docs/02-getting-ready.md",
     "docs/03-repositories-and-folders.md",
     "docs/01-what-is-version-control.md",
     "docs/00-Front.md.md",
@@ -188,9 +187,9 @@
     "assets/2024-03-01_14_57_02-New-repository-Brave.png",
     "assets/2024-03-01_14_56_32-AdyGCode_git-remote-demo-Brave.png",
     "assets/2024-03-01_14_56_22-AdyGCode_git-remote-demo-Brave.png",
+    "CONTRIBUTE.md",
     "99-references-and-resources.md",
     "12-remotely-useful.md",
-    "11-merging-and-conflicts.md",
     "themes",
     "ReadMe.md~",
     "02-getting-ready.md~",
