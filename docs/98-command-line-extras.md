@@ -14,9 +14,25 @@ Many hints and tips for MacOS and Linux will be the same.
 
 The best hint or tip we can give is the following...
 
-Add Aliases for common commands.
+### Listing Aliases
 
-To do this we open a Bash CLI in Terminal and then enter: `code ~/.bashrc`
+To list the aliases that are already set use:
+
+```shell
+alias
+```
+
+If there are any aliases created, they will be listed similar to this:
+
+![](../assets/pasted-image-20240314102512.png)
+
+### Adding Aliases
+
+To do this we open a Bash CLI in Terminal and then enter: 
+
+```shell
+code ~/.bashrc
+```
 
 When it asks to create a new file, accept this.
 
@@ -70,12 +86,11 @@ source ~/.bashrc
 
 - TODO: Add Command Hints for MacOS zshell
 
+For MacOS using zshell, you would create or edit the `~/.zshrc` file. **to verify**
 
 ## Linux Bash
 
 For the main part, you may use the Windows Git Bash aliases for Linux without any issues.
 
 Likewise use the `source ~/.bashrc` command to activate the aliases without having to close and reopen the terminal, Warp or iTerm.
-
-- TODO: Add Command Hints for Linux Bash
 
