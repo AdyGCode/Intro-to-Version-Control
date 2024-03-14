@@ -1,7 +1,6 @@
 # Version Controlled Workflows
 
-The video by Nick Chapsas "Getting started with branching workflows, Git Flow and GitHub Flow" provides a summary of
-these two workflows.
+The video by Nick Chapsas "Getting started with branching workflows, Git Flow and GitHub Flow" provides a summary of these two workflows.
 
 [Getting started with branching workflows, Git Flow and GitHub Flow (youtube.com)](https://www.youtube.com/watch?v=gW6dFpTMk8s)
 
@@ -26,8 +25,7 @@ Here's how it works:
     - `hotfix`branches: These branches are used to quickly fix critical issues in the production code (`master`branch).
       When the fix is complete, it is merged back into both the`main`and`develop`branches.
 
-This workflow helps keep the `main` branch stable, while allowing active development to happen in parallel on
-the `develop` branch and other supporting branches.
+This workflow helps keep the `main` branch stable, while allowing active development to happen in parallel on the `develop` branch and other supporting branches.
 
 ## GitHub Flow Workflow
 
@@ -37,14 +35,14 @@ It's designed to work well with GitHub's features and allows for more frequent d
 
 Here's how it works:
 
-1. **Main Branch**: There is only one main branch, typically called`main`or`master`.
-2. **Feature Branches**: Whenever you want to work on a new feature or bug fix, you create a new branch from the`main`
+1. **Main Branch**: There is only one main branch, typically called`main`or `master`.
+2. **Feature Branches**: Whenever you want to work on a new feature or bug fix, you create a new branch from the `main`
    branch.
-3. **Pull Requests**: When you're ready to merge your changes back into the`main`branch, you create a Pull Request. This
+3. **Pull Requests**: When you're ready to merge your changes back into the `main` branch, you create a Pull Request. This
    allows others to review your code and provide feedback before merging.
 4. **Code Reviews**: The Pull Request triggers a code review process, where team members can discuss the changes,
    suggest improvements, or request additional changes.
-5. **Merge and Deploy**: Once the code has been reviewed and approved, the feature branch is merged into the`main`
+5. **Merge and Deploy**: Once the code has been reviewed and approved, the feature branch is merged into the `main`
    branch. This merged code can then be deployed to production.
 
 GitHub Flow encourages frequent, small updates to the codebase, making it easier to manage and integrate changes.
