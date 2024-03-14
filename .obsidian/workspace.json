@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "24d108f19bd80217",
+        "id": "f854b54e1c2c8592",
         "type": "tabs",
         "children": [
           {
-            "id": "08eecd3350f5b33e",
+            "id": "e74c320159094cdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,10 +147,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "08eecd3350f5b33e",
+  "active": "d22cb632a0379261",
   "lastOpenFiles": [
-    "docs/98-command-line-extras.md",
+    "assets/Pull-Request-Practice.md",
     "docs/14-forking-over-code.md",
+    "assets/collaboration.png",
+    "docs/12-remotely-useful.md",
+    "docs/98-command-line-extras.md",
     "docs/15-workflows.md",
     "CONTRIBUTE.md",
     "docs/98-command-line-extras.md",
@@ -173,7 +176,6 @@
     "theme/style.css",
     "theme",
     "docs/13-why-hello-dolly.md",
-    "docs/12-remotely-useful.md",
     "docs/11-merging-and-conflicts.md",
     "docs/10-shaking-the-tree.md",
     "docs/09-git-history.md",
@@ -188,8 +190,6 @@
     "assets/2024-03-01_15_03_52-AdyGCode_git-remote-demo-ii-Brave.png",
     "assets/2024-03-01_14_57_49-New-repository-Brave.png",
     "assets/2024-03-01_14_57_43-New-repository-Brave.png",
-    "assets/2024-03-01_14_57_37-New-repository-Brave.png",
-    "99-references-and-resources.md",
     "themes",
     "ReadMe.md~",
     "02-getting-ready.md~",
