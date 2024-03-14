@@ -11,8 +11,17 @@
             "id": "ffb884bc76ff47e7",
             "type": "leaf",
             "state": {
+<<<<<<< Updated upstream
               "type": "empty",
               "state": {}
+=======
+              "type": "markdown",
+              "state": {
+                "file": "CONTRIBUTE.md",
+                "mode": "source",
+                "source": false
+              }
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -81,6 +90,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
+=======
+                "file": "CONTRIBUTE.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +110,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
+=======
+                "file": "CONTRIBUTE.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +135,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< Updated upstream
               "state": {}
+=======
+              "state": {
+                "file": "CONTRIBUTE.md"
+              }
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -141,12 +164,23 @@
   },
   "active": "ffb884bc76ff47e7",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "docs/00-Back.md.md",
     "assets/back-cover.svg",
     "docs/00-Front.md.md",
     "assets/front-cover.svg",
     "docs/14-forking-over-code.md",
     "docs/15-workflows.md",
+=======
+    "output",
+    "LICENSE.md",
+    "docs/14-forking-over-code.md",
+    "docs/15-workflows.md",
+    "docs/00-Back.md.md",
+    "docs/00-Front.md.md",
+    "assets/back-cover.svg",
+    "assets/front-cover.svg",
+>>>>>>> Stashed changes
     "assets/pasted-image-20240216114456.png",
     "assets/pasted-image-20240216124422.png",
     "docs/98-command-line-extras.md",
@@ -157,11 +191,17 @@
     "docs/06-read-me.md",
     "ReadMe.md",
     "assets/BLANK_README.md",
+<<<<<<< Updated upstream
     "LICENSE.md",
     "CHANGELOG.md",
     "theme/style.css",
     "theme",
     "output",
+=======
+    "CHANGELOG.md",
+    "theme/style.css",
+    "theme",
+>>>>>>> Stashed changes
     "docs/13-why-hello-dolly.md",
     "docs/12-remotely-useful.md",
     "docs/11-merging-and-conflicts.md",
