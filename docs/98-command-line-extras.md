@@ -26,7 +26,7 @@ If there are any aliases created, they will be listed similar to this:
 
 ![](../assets/pasted-image-20240314102512.png)
 
-### Adding Aliases
+### Adding Aliases via `.bashrc`
 
 To do this we open a Bash CLI in Terminal and then enter: 
 
@@ -34,7 +34,27 @@ To do this we open a Bash CLI in Terminal and then enter:
 code ~/.bashrc
 ```
 
-When it asks to create a new file, accept this.
+If it asks to create a new file, accept this.
+
+Next check the file to see if it has the following:
+
+```bash
+if [ -e $HOME/.bash_aliases ]; then
+	source $HOME/.bash_aliases 
+fi
+```
+
+If it does not, add the above to the end of the file.
+
+Once you have done this, save the file and quit from Visual Studio Code.
+
+### The Aliases
+
+Likewise we now need to create the aliases file for the CLI to read when it starts up via the `.bashrc` file we juse created/added to.
+
+```bash
+code ~/.bash_aliases
+```
 
 In the file add the following general Bash aliases for things like listing files:
 
@@ -66,7 +86,7 @@ If you want to shorten your Git commands then the following could be useful:
 # Git Add: ga FILENAME
 alias ga='git add'
 # Git Commit: gc -m MESSAGE
-alias gc='git commit'
+alias gc='git commit --verbose'
 # Git Pull: gpl
 alias gpl='git pull'
 # Git Push: gps -u origin main
@@ -93,4 +113,32 @@ For MacOS using zshell, you would create or edit the `~/.zshrc` file. **to verif
 For the main part, you may use the Windows Git Bash aliases for Linux without any issues.
 
 Likewise use the `source ~/.bashrc` command to activate the aliases without having to close and reopen the terminal, Warp or iTerm.
+
+
+## Bonus
+
+Fancy being greeted nicely?
+
+Edit the `~/.bashrc` file again.
+
+At the top of the file add:
+
+```bash
+TIME=$(date "+%H")
+
+if [ $TIME -lt 12 ]; then
+    echo "Good morning"
+elif [ $TIME -lt 18 ]]; then
+    echo "Good afternoon"
+else
+    echo "Good evening"
+fi
+
+echo "Welcome $USERNAME, to Bash on $HOSTNAME."
+echo "Today's date is: $(date +"%A, %d-%m-%y")"
+```
+
+Here is an example greeting:
+
+![](../assets/pasted-image-20240314105028.png)
 
