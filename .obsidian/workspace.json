@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "35974611d054e0dc",
+        "id": "24d108f19bd80217",
         "type": "tabs",
         "children": [
           {
-            "id": "ffb884bc76ff47e7",
+            "id": "08eecd3350f5b33e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CONTRIBUTE.md",
+                "file": "docs/14-forking-over-code.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CONTRIBUTE.md",
+                "file": "docs/14-forking-over-code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CONTRIBUTE.md",
+                "file": "docs/14-forking-over-code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CONTRIBUTE.md"
+                "file": "docs/14-forking-over-code.md"
               }
             }
           }
@@ -147,7 +147,51 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ffb884bc76ff47e7",
+  "active": "08eecd3350f5b33e",
   "lastOpenFiles": [
+    "CONTRIBUTE.md",
+    "docs/98-command-line-extras.md",
+    "docs/14-forking-over-code.md",
+    "docs/15-workflows.md",
+    "assets/pasted-image-20240314105028.png",
+    "assets/pasted-image-20240314102512.png",
+    "assets/front-cover.svg",
+    "assets/back-cover.svg",
+    "assets/BLANK_README.md",
+    "LICENSE.md",
+    "CHANGELOG.md",
+    "output",
+    "docs/00-Back.md.md",
+    "docs/00-Front.md.md",
+    "assets/pasted-image-20240216114456.png",
+    "assets/pasted-image-20240216124422.png",
+    "docs/99-references-and-resources.md",
+    "docs/08-status-add-commit.md",
+    "docs/06-read-me.md",
+    "ReadMe.md",
+    "theme/style.css",
+    "theme",
+    "docs/13-why-hello-dolly.md",
+    "docs/12-remotely-useful.md",
+    "docs/11-merging-and-conflicts.md",
+    "docs/10-shaking-the-tree.md",
+    "docs/09-git-history.md",
+    "docs/07-ignore-me.md",
+    "docs/05-global-settings.md",
+    "docs/04-git-started.md",
+    "docs/02-getting-ready.md",
+    "docs/03-repositories-and-folders.md",
+    "docs/01-what-is-version-control.md",
+    "docs",
+    "assets/brave_dWSQwZYc3F.mp4",
+    "assets/2024-03-01_15_03_52-AdyGCode_git-remote-demo-ii-Brave.png",
+    "assets/2024-03-01_14_57_49-New-repository-Brave.png",
+    "assets/2024-03-01_14_57_43-New-repository-Brave.png",
+    "assets/2024-03-01_14_57_37-New-repository-Brave.png",
+    "99-references-and-resources.md",
+    "themes",
+    "ReadMe.md~",
+    "02-getting-ready.md~",
+    "assets"
   ]
 }
