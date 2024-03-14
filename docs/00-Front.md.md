@@ -1,0 +1,1 @@
+![](../assets/front-cover.svg)
