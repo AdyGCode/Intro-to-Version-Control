@@ -2,7 +2,7 @@
 
 The video by Nick Chapsas "Getting started with branching workflows, Git Flow and GitHub Flow" provides a summary of these two workflows.
 
-[Getting started with branching workflows, Git Flow and GitHub Flow (youtube.com)](https://www.youtube.com/watch?v=gW6dFpTMk8s)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gW6dFpTMk8s?si=H6Hhn5CDRE5BLNSD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Git Flow Workflow
 
@@ -14,14 +14,18 @@ Here's how it works:
 
 1. **Main Branches**: There are two main branches:
     - `main`(or `master`): This is the branch that contains the production-ready code.
+      
     - `develop`: This is the branch where all the new features and bug fixes are integrated before being merged into
       the`main`branch.
+      
 2. **Supporting Branches**: There are also supporting branches for specific tasks:
     - `feature`branches: These branches are used to develop new features. When a feature is complete, it is merged back
       into the`develop`branch.
+      
     - `release`branches: When the`develop`branch is stable and ready for a release, a`release`branch is created from it.
       This is where any last-minute bug fixes or documentation updates are made before the release is merged into
       the`main`branch and tagged with a version number.
+      
     - `hotfix`branches: These branches are used to quickly fix critical issues in the production code (`master`branch).
       When the fix is complete, it is merged back into both the`main`and`develop`branches.
 
@@ -36,24 +40,33 @@ It's designed to work well with GitHub's features and allows for more frequent d
 Here's how it works:
 
 1. **Main Branch**: There is only one main branch, typically called`main`or `master`.
+   
 2. **Feature Branches**: Whenever you want to work on a new feature or bug fix, you create a new branch from the `main`
    branch.
+   
 3. **Pull Requests**: When you're ready to merge your changes back into the `main` branch, you create a Pull Request. This
    allows others to review your code and provide feedback before merging.
+   
 4. **Code Reviews**: The Pull Request triggers a code review process, where team members can discuss the changes,
    suggest improvements, or request additional changes.
+   
 5. **Merge and Deploy**: Once the code has been reviewed and approved, the feature branch is merged into the `main`
    branch. This merged code can then be deployed to production.
 
 GitHub Flow encourages frequent, small updates to the codebase, making it easier to manage and integrate changes.
 
-## Further Reading and Tutorials
 
-Select one or two to review and make notes about.
+# References
 
-Feel free to feedback as to what you think about the selected items.
+The references show details of any articles, videos and other items that were used in this chapter, plus other, possibly useful items.
 
-- [Guide to Git Flow (gitdailies.com)](https://gitdailies.com/articles/git-flow-guide/)
+Chapsas, N. (2021). _Getting started with branching workflows, Git Flow and GitHub Flow_. [online] www.youtube.com. Available at: https://www.youtube.com/watch?v=gW6dFpTMk8s [Accessed 15 Mar. 2024].
+
+Git Dailies (n.d.). _Guide to Git Flow_. [online] GitDailies: Software Engineering Metrics Made Easy. Available at: https://gitdailies.com/articles/git-flow-guide/ [Accessed 15 Mar. 2024].
+
+
+Other links
+
 - [Git Workflow | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows)
 - [How To Use Git Flow Effectively (marketsplash.com)](https://marketsplash.com/tutorials/git/git-flow/)
 - [Git Flow | Developer Experience Knowledge Base](https://developerexperience.io/articles/git-flow)
@@ -68,5 +81,9 @@ Feel free to feedback as to what you think about the selected items.
 - [Understanding the GitHub Flow | GitHub Guides (gitbooks.io)](https://roachhd.gitbooks.io/github-guides/content/flow/flow.html)
 - [Git Flow vs GitHub Flow | Alex Hyett](https://www.alexhyett.com/git-flow-github-flow/)
 - [Git Flow vs GitHub Flow: What You Need to Know (youtube.com)](https://www.youtube.com/watch?v=hG_P6IRAjNQ&feature=youtu.be)
--
-- 
+- ...
+
+
+
+
+[Stashing](17-stashing.md) | [...](.)

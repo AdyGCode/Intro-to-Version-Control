@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f854b54e1c2c8592",
+        "id": "8a32cc27797a4d1e",
         "type": "tabs",
         "children": [
           {
-            "id": "e74c320159094cdf",
+            "id": "20e1b75c65c12b41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/15-diffs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "411e3e90803f0f69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/16-oopsy-undoing-changes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ccbe8c51ef9a5f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,7 +154,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,15 +173,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e74c320159094cdf",
+  "active": "4ccbe8c51ef9a5f7",
   "lastOpenFiles": [
+    "docs/17-stashing.md",
+    "docs/18-workflows.md",
+    "docs/16-oopsy-undoing-changes.md",
+    "docs/15-diffs.md",
+    "16-.md",
+    "assets/pasted-image-20240315113136.png",
     "assets/Pasted image 20240314154647.png",
     "assets/Pasted image 20240314154551.png",
-    "docs/15-diffs.md",
     "assets/diff-difference.png",
     "assets/diff-hunk-headers.png",
     "assets/diff-header.png",
-    "docs/18-workflows.md",
     "docs/14-forking-over-code.md",
     "assets/Pull-Request-Practice.md",
     "assets/collaboration.png",
@@ -166,7 +196,6 @@
     "assets/pasted-image-20240314105028.png",
     "assets/pasted-image-20240314102512.png",
     "assets/front-cover.svg",
-    "assets/back-cover.svg",
     "assets/BLANK_README.md",
     "LICENSE.md",
     "CHANGELOG.md",
@@ -185,8 +214,6 @@
     "docs/09-git-history.md",
     "docs/07-ignore-me.md",
     "docs/05-global-settings.md",
-    "docs/04-git-started.md",
-    "docs/02-getting-ready.md",
     "docs",
     "assets/brave_dWSQwZYc3F.mp4",
     "themes",
