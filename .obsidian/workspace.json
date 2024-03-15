@@ -8,43 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "20e1b75c65c12b41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/15-diffs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "411e3e90803f0f69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/16-oopsy-undoing-changes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4ccbe8c51ef9a5f7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/18-workflows.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/18-workflows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/18-workflows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/18-workflows.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -175,20 +142,21 @@
   },
   "active": "4ccbe8c51ef9a5f7",
   "lastOpenFiles": [
-    "docs/17-stashing.md",
     "docs/18-workflows.md",
+    "docs/17-stashing.md",
     "docs/16-oopsy-undoing-changes.md",
     "docs/15-diffs.md",
-    "16-.md",
     "assets/pasted-image-20240315113136.png",
-    "assets/Pasted image 20240314154647.png",
-    "assets/Pasted image 20240314154551.png",
-    "assets/diff-difference.png",
     "assets/diff-hunk-headers.png",
     "assets/diff-header.png",
-    "docs/14-forking-over-code.md",
-    "assets/Pull-Request-Practice.md",
+    "assets/diff-difference.png",
     "assets/collaboration.png",
+    "assets/Pull-Request-Practice.md",
+    "docs/15-workflows.md",
+    "16-.md",
+    "assets/Pasted image 20240314154647.png",
+    "assets/Pasted image 20240314154551.png",
+    "docs/14-forking-over-code.md",
     "docs/12-remotely-useful.md",
     "docs/98-command-line-extras.md",
     "CONTRIBUTE.md",
@@ -212,8 +180,6 @@
     "docs/11-merging-and-conflicts.md",
     "docs/10-shaking-the-tree.md",
     "docs/09-git-history.md",
-    "docs/07-ignore-me.md",
-    "docs/05-global-settings.md",
     "docs",
     "assets/brave_dWSQwZYc3F.mp4",
     "themes",
