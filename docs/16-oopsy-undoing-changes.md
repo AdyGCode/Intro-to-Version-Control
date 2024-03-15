@@ -58,4 +58,4 @@ A Shot of Code (2023). _Git Reset Visualized_. [online] www.youtube.com. Availab
 A shot of code (2023). _Git Revert - Visualised_. [online] www.youtube.com. Available at: https://www.youtube.com/watch?v=XJqQPNudPSY&list=PLvVKmViR0Z7aKwZjgICrjp0wUYMF_IpGX&index=15 [Accessed 15 Mar. 2024].
 
 
-[Diffs](./docs/14-diffs.md) | [Stashing](./docs/17-stashing.md)
+[Diffs](14-diffs.md) | [Stashing](17-stashing.md)
