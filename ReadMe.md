@@ -35,6 +35,8 @@ This ReadMe does not need a Table of contents, instead we provide links to each 
 - [15 Workflows](docs/18-workflows.md)
 - 
 - ...
+- [90 Deleting GitHub Repos](./docs/90-deleting-github-repos.md)
+- [98 Command Line Extras](docs/98-command-line-extras.md)
 - [99 References and Resources](docs/99-references-and-resources.md)
 
 ## Cloning this Repository
