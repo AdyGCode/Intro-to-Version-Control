@@ -86,4 +86,4 @@ Other links
 
 
 
-[Stashing](17-stashing.md) | [...](.)
+[Stashing](17-stashing.md) | [Home](../ReadMe.md)
